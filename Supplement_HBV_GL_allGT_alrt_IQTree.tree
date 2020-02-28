@@ -1,0 +1,156 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=54;
+	taxlabels
+	101102-700441_2017_Sisimiut[&!color=#ff00ff]
+	'101105-706980_X_2017.50_Sisimiut'[&!color=#ff00ff]
+	101116-458966_2017_Sisimiut[&!color=#ff00ff]
+	101138-639190_2017_Nuuk[&!color=#ff00ff]
+	101148-137251_2017_Aasiaat[&!color=#ff00ff]
+	101148-241032_2017_Nuuk[&!color=#ff00ff]
+	101156-155760_2017_Nuuk[&!color=#ff00ff]
+	101161-498572_2017_Nuuk[&!color=#ff00ff]
+	101192-645410_2017_Sisimiut[&!color=#ff00ff]
+	101195-133160_2017_Sisimiut[&!color=#ff00ff]
+	1205_1998-Nov_Itilleq[&!color=#ff00ff]
+	1509_2009-Sep_Itilleq[&!color=#ff00ff]
+	1776_1998-Nov_Sisimiut[&!color=#ff00ff]
+	2031_1998-Nov_Sisimiut[&!color=#ff00ff]
+	208_2008-Mar_Sisimiut[&!color=#ff00ff]
+	2132_1998-Nov_Sisimiut[&!color=#ff00ff]
+	214_2008-Mar_Sisimiut[&!color=#ff00ff]
+	218_2008-Mar_Itilleq[&!color=#ff00ff]
+	2335_1998-Nov_Sisimiut[&!color=#ff00ff]
+	248_2008-Mar_Sisimiut[&!color=#ff00ff]
+	267_2008-Mar_Sisimiut[&!color=#ff00ff]
+	268_2008-Mar_Sisimiut[&!color=#ff00ff]
+	2903_1998-Nov_Sisimiut[&!color=#ff00ff]
+	2943_1998-Nov_Sarfannguaq[&!color=#ff00ff]
+	2951_1998-Nov_Sarfannguaq[&!color=#ff00ff]
+	2952_1998-Nov_Itilleq[&!color=#ff00ff]
+	2958_1998-Nov_Sarfannguaq[&!color=#ff00ff]
+	30127_2004-Dec_Sarfannguaq[&!color=#ff00ff]
+	302000479_2004-Dec_Itilleq[&!color=#ff00ff]
+	312000479_2004-Dec_Itilleq[&!color=#ff00ff]
+	3288_1998-Nov_Sisimiut[&!color=#ff00ff]
+	345_2004-Dec_Sarfannguaq[&!color=#ff00ff]
+	417_2004-Dec_Itilleq[&!color=#ff00ff]
+	422_2004-Mar_Itilleq[&!color=#ff00ff]
+	437_2004-Dec_Itilleq[&!color=#ff00ff]
+	449_2004-Dec_Itilleq[&!color=#ff00ff]
+	473_2004-Dec_Sarfannguaq[&!color=#ff00ff]
+	5180_2009-Jun_Itilleq[&!color=#ff00ff]
+	5198_2009-Jun_Itilleq[&!color=#ff00ff]
+	AB231908_I_2003-Jun_Vietnam
+	AB486012_J_2006-Sep_Japan_Ryuku
+	AB602818_B1_2005-Oct_Japan_Miyagi
+	FJ349205_D2_2008-Dec_Belgium
+	FJ349224_A2_2000-Mar_Belgium
+	FJ356716_H_2008-Feb_Argentina
+	GQ924607_B2_2006-Dec_Malaysia
+	HM590471_F1b_2009-Jun_Chile
+	KF414679_G_2005-May_Venezuela
+	KP017267_C1_2013-Nov_Hong
+	KP017270_C2_2013-Nov_South
+	KP322599_D1_2013-Nov_India
+	KT347088_A1_2010-Jul_South
+	KU736899_E_2011-Jun_Liberia
+	KX186584_E_2013-Nov_Guinea
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('101105-706980_X_2017.50_Sisimiut':0.004946,((((101102-700441_2017_Sisimiut:2.0E-6,((((((((101161-498572_2017_Nuuk:3.23E-4,417_2004-Dec_Itilleq:2.0E-6)[&label=84.9]:6.41E-4,30127_2004-Dec_Sarfannguaq:6.43E-4)[&label=76.8]:3.2E-4,(1509_2009-Sep_Itilleq:0.001739,5180_2009-Jun_Itilleq:2.0E-6)[&label=0]:2.0E-6)[&label=0]:2.0E-6,437_2004-Dec_Itilleq:3.2E-4)[&label=0]:2.0E-6,302000479_2004-Dec_Itilleq:2.0E-6)[&label=0]:2.0E-6,1205_1998-Nov_Itilleq:2.0E-6)[&label=0]:2.0E-6,312000479_2004-Dec_Itilleq:2.0E-6)[&label=0]:2.0E-6,(2951_1998-Nov_Sarfannguaq:0.0049,473_2004-Dec_Sarfannguaq:6.15E-4)[&label=99.8]:0.004232)[&label=85.5]:5.79E-4)[&label=0]:2.0E-6,(((2031_1998-Nov_Sisimiut:0.00418,268_2008-Mar_Sisimiut:0.003402)[&label=100]:0.006693,(2132_1998-Nov_Sisimiut:0.002239,267_2008-Mar_Sisimiut:0.0061)[&label=89.9]:0.001746)[&label=75.8]:6.37E-4,(422_2004-Mar_Itilleq:3.25E-4,5198_2009-Jun_Itilleq:0.001108)[&label=98.7]:0.00321)[&label=76.7]:8.32E-4)[&label=0]:1.0E-6,((((((((101116-458966_2017_Sisimiut:0.018249,2958_1998-Nov_Sarfannguaq:7.12E-4)[&label=38.5]:0.001825,345_2004-Dec_Sarfannguaq:0.003853)[&label=92]:0.001554,101148-137251_2017_Aasiaat:0.021395)[&label=90.5]:0.001155,((214_2008-Mar_Sisimiut:0.008183,3288_1998-Nov_Sisimiut:0.004974)[&label=98.8]:0.003907,(2335_1998-Nov_Sisimiut:0.001611,248_2008-Mar_Sisimiut:0.004251)[&label=99.8]:0.004061)[&label=83.4]:7.64E-4)[&label=35.3]:4.45E-4,(1776_1998-Nov_Sisimiut:0.002256,208_2008-Mar_Sisimiut:0.003576)[&label=99.9]:0.007369)[&label=34.5]:3.45E-4,((218_2008-Mar_Itilleq:0.010328,2952_1998-Nov_Itilleq:0.00345)[&label=47.5]:0.002588,449_2004-Dec_Itilleq:0.004155)[&label=99.9]:0.00611)[&label=76.1]:5.03E-4,2903_1998-Nov_Sisimiut:0.004533)[&label=87.9]:6.48E-4,2943_1998-Nov_Sarfannguaq:0.004877)[&label=74.5]:3.79E-4)[&label=92.3]:8.88E-4,(101138-639190_2017_Nuuk:0.001085,((101148-241032_2017_Nuuk:0.035699,(101192-645410_2017_Sisimiut:0.014002,101195-133160_2017_Sisimiut:0.014477)[&label=0]:2.0E-6)[&label=82.5]:0.001838,((((((((AB231908_I_2003-Jun_Vietnam:0.037034,(KP017267_C1_2013-Nov_Hong:0.016728,KP017270_C2_2013-Nov_South:0.01279)[&label=100]:0.026909)[&label=95.8]:0.011817,(FJ349224_A2_2000-Mar_Belgium:0.023002,KT347088_A1_2010-Jul_South:0.024911)[&label=100]:0.030863)[&label=50.1]:0.005555,(AB602818_B1_2005-Oct_Japan_Miyagi:0.019401,GQ924607_B2_2006-Dec_Malaysia:0.021031)[&label=100]:0.0422)[&label=95.7]:0.013063,(AB486012_J_2006-Sep_Japan_Ryuku:0.089722,(FJ356716_H_2008-Feb_Argentina:0.052239,HM590471_F1b_2009-Jun_Chile:0.046087)[&label=100]:0.085932)[&label=46.7]:0.012337)[&label=97.6]:0.016546,KF414679_G_2005-May_Venezuela:0.085783)[&label=100]:0.022162,(KU736899_E_2011-Jun_Liberia:0.004918,KX186584_E_2013-Nov_Guinea:0.001427)[&label=100]:0.034446)[&label=100]:0.037469,FJ349205_D2_2008-Dec_Belgium:0.013335)[&label=87]:0.002764,KP322599_D1_2013-Nov_India:0.006415)[&label=99.9]:0.008959)[&label=93.8]:0.002481)[&label=0]:2.0E-6)[&label=75]:7.72E-4,101156-155760_2017_Nuuk:0.004382);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="Al Bayan";
+	set branchLabels.fontSize=11;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=2;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Al Bayan";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Al Bayan";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
