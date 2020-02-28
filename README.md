@@ -1,4 +1,4 @@
-# Paper_HBV_Greenland
+# Paper HBV Greenland
 Repository for the paper "Tracing the origin of Hepatitis B virus (HBV)genotype D in Greenland"
 
 ### Alignment files
