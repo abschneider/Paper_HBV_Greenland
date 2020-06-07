@@ -1,5 +1,6 @@
-# Paper HBV Greenland
-Repository for the paper "Tracing the origin of Hepatitis B virus (HBV)genotype D in Greenland"
+# Supplementary data for the paper "Tracing the origin of Hepatitis B virus (HBV)genotype D in Greenland"
+ [![DOI](https://zenodo.org/badge/243627088.svg)](https://zenodo.org/badge/latestdoi/243627088)
+
 
 ### Sequence file
 
