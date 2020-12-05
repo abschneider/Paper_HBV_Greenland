@@ -47,7 +47,7 @@ Dataset 1.2 - MEGA X Output - Dataset1.2_HBV_900subset_MEGAoutput_betweengroupme
 
 ### Authors
 
-<h4 align = "left">Adriano de Bernardi Schneider,<br>Carla Osiowy,<br>Reilly Hostager<br>Henrik Krarup,<br>Malene Børresen,<br>Yasuhito Tanaka,<br>Taylor Morriseau,<br>Joel O. Wertheim.</h4>
+<h4 align = "left">Adriano de Bernardi Schneider,<br>Carla Osiowy,<br>Reilly Hostager,<br>Henrik Krarup,<br>Malene Børresen,<br>Yasuhito Tanaka,<br>Taylor Morriseau,<br>Joel O. Wertheim.</h4>
 
 ### How To Cite
 
