@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Paper HBV Greenland
 Repository for the paper "Analysis of Hepatitis B virus genotype D in Greenland suggests presence of novel quasi-subgenotype"
 
