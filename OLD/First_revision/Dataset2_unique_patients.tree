@@ -1,0 +1,181 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=79;
+	taxlabels
+	'101102-700441_MT603399_2017.50_Sisimiut'[&!color=#0000ff]
+	'101105-706980_MT603380_2017.50_Sisimiut'[&!color=#0000ff]
+	'101116-458966_MT603381_2017.50_Sisimiut'[&!color=#0000ff]
+	'101138-639190_MT603382_2017.50_Nuuk'[&!color=#0000ff]
+	'101148-137251_MT603386_2017.50_Aasiaat'[&!color=#0000ff]
+	'101148-241032_MT603376_2017.50_Nuuk'[&!color=#0000ff]
+	'101156-155760_MT603378_2017.50_Nuuk'[&!color=#0000ff]
+	'101161-498572_MT603396_2017.50_Nuuk'[&!color=#0000ff]
+	'101192-645410_MT603377_2017.50_Sisimiut'[&!color=#0000ff]
+	'101195-133160_MT603379_2017.50_Sisimiut'[&!color=#0000ff]
+	'1205_JN792909_1998.87_Itilleq'[&!color=#0000ff]
+	'1776_MT603391_1998.87_Sisimiut'[&!color=#0000ff]
+	'2031_MT603388_1998.87_Sisimiut'[&!color=#0000ff]
+	'2132_MT603398_1998.87_Sisimiut'[&!color=#0000ff]
+	'2335_MT603394_1998.87_Sisimiut'[&!color=#0000ff]
+	'2903_MT603397_1998.87_Sisimiut'[&!color=#0000ff]
+	'2943_JN792904_1998.87_Sarfannguaq'[&!color=#0000ff]
+	'2951_JN792908_1998.87_Sarfannguaq'[&!color=#0000ff]
+	'2952_JN792911_1998.87_Itilleq'[&!color=#0000ff]
+	'2958_JN792906_1998.87_Sarfannguaq'[&!color=#0000ff]
+	'302000479_MT603401_2004.96_Itilleq'[&!color=#0000ff]
+	'3288_MT603392_1998.87_Sisimiut'[&!color=#0000ff]
+	'417_MT603400_2004.96_Itilleq'[&!color=#0000ff]
+	'422_MT603383_2004.96_Itilleq'[&!color=#0000ff]
+	'437_MT603402_2004.96_Itilleq'[&!color=#0000ff]
+	'AB267090_D2_2005.71_Japan-Ehime-Niihama'
+	'AB555496_D2_2009.5_Taiwanese-aborigines'
+	'AB555497_D2_2009.5_Taiwanese-aborigines'
+	'AB555500_D2_2009.5_Taiwanese-aborigines'
+	'AB555501_D2_2009.5_Taiwanese-aborigines'
+	'FJ349205_D2_2008.96_Belgium'
+	'FJ349209_D3_1998.29_Belgium'
+	'FJ349218_D2_1999.54_Belgium'
+	'FJ349220_D1_1999.88_Belgium'
+	'FJ692533_D4_2006.04_Haiti'
+	'FJ904443_D1_2005.96_Tunisia'
+	'GQ205377_D5_2007.20_India'
+	'GQ205382_D5_2008.04_India'
+	'GQ205384_D5_2008.13_India'
+	'GQ205387_D5_2008.79_India'
+	'GQ377589_D1_2007.20_China'
+	'GQ477453_D2_2006.20_Poland'
+	'GQ477459_D1_2006.20_Poland'
+	'GQ922000_D3_1985.04_Northwest'
+	'GQ922003_D4_1984.88_Northwest'
+	'GQ924652_D2_2007.04_Malaysia'
+	'HQ700501_D4_1991.04_Samoa'
+	'HQ700511_D_2001.5_New-Caledonia'
+	'HQ700525_D4_2004.04_Papua'
+	'HQ700536_D4_2004.04_Kiribati'
+	'JN257185_D1_2008.71_Syria'
+	'JN257193_D1_2009.13_Syria'
+	'JN688695_D_2009.5_Argentina'
+	'JQ687532_D2_2008.13_Serbia'
+	'JX096956_D2_2006.37_Latvia'
+	'KF061168_D1_2012.29_Pakistan'
+	'KF584161_D1_2011.29_Argentina'
+	'KF584162_D1_2012.20_Argentina'
+	'KJ470884_D4_2010.20_Brazil'
+	'KJ647352_D2_2011.20_Argentina'
+	'KP090177_D3_2003.46_Brazil'
+	'KP168419_D6_2012.04_Kenya'
+	'KP322599_D1_2013.88_India'
+	'KP322601_D2_2013.88_India'
+	'KP322603_D5_2013.88_India'
+	'KP322604_D6_2013.88_Tunisia'
+	'KT347090_D3_2007.04_South'
+	'KU736921_D6_2011.54_Ethiopia'
+	'KU736923_D6_2006.96_Somalia'
+	'KU736925_D2_2008.88_Sudan'
+	'KX827292_D3_2010.13_USA'
+	'KX827299_D6_2010.13_USA'
+	'KX827301_D2_2010.13_USA'
+	aHBV-DA222-LT992454_D3_849_Butakty-Kazakhstan
+	aHBV-DA27-LT992439_D5_406_Halvay3-Kazakhstan
+	aHBV-DA29-LT992438_D3_1194_Karasyur-Kazakhstan
+	aHBV-DA51-LT992444_D1_-281_Keden-Kyrgyzstan
+	aHBV-NASD24SEQ-MG585269_D3_1569_Italian-Mummy
+	aHBV_Medieval_1068_Petersburg
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('101148-241032_MT603376_2017.50_Nuuk':0.0167,((('101138-639190_MT603382_2017.50_Nuuk':8.49E-4,((((((('2031_MT603388_1998.87_Sisimiut':0.010563,'422_MT603383_2004.96_Itilleq':0.001894)[&SH-alrt=78.3]:0.001162,'2132_MT603398_1998.87_Sisimiut':0.003973)[&SH-alrt=85.3]:8.41E-4,('101161-498572_MT603396_2017.50_Nuuk':3.19E-4,'417_MT603400_2004.96_Itilleq':2.0E-6)[&SH-alrt=88.9]:6.33E-4)[&SH-alrt=17.5]:3.15E-4,(('302000479_MT603401_2004.96_Itilleq':2.0E-6,'1205_JN792909_1998.87_Itilleq':2.0E-6)[&SH-alrt=0]:2.0E-6,'437_MT603402_2004.96_Itilleq':3.15E-4)[&SH-alrt=0]:3.0E-6)[&SH-alrt=88.3]:6.17E-4,'101102-700441_MT603399_2017.50_Sisimiut':2.0E-6)[&SH-alrt=0]:3.0E-6,(('1776_MT603391_1998.87_Sisimiut':0.009085,'2943_JN792904_1998.87_Sarfannguaq':0.003887)[&SH-alrt=75.9]:0.001105,(((('2335_MT603394_1998.87_Sisimiut':0.006133,('2951_JN792908_1998.87_Sarfannguaq':0.006947,'3288_MT603392_1998.87_Sisimiut':0.007161)[&SH-alrt=85.6]:0.001483)[&SH-alrt=73.8]:4.06E-4,('2958_JN792906_1998.87_Sarfannguaq':6.98E-4,'101116-458966_MT603381_2017.50_Sisimiut':0.007098)[&SH-alrt=94.8]:0.00393)[&SH-alrt=79.4]:6.35E-4,'2952_JN792911_1998.87_Itilleq':0.01034)[&SH-alrt=80.6]:8.1E-4,'2903_MT603397_1998.87_Sisimiut':0.004517)[&SH-alrt=80.2]:5.65E-4)[&SH-alrt=78.2]:4.02E-4)[&SH-alrt=87.3]:6.47E-4,(('101105-706980_MT603380_2017.50_Sisimiut':0.002754,'101192-645410_MT603377_2017.50_Sisimiut':0.003173)[&SH-alrt=93]:0.002713,'101156-155760_MT603378_2017.50_Nuuk':0.00428)[&SH-alrt=73.3]:4.81E-4)[&SH-alrt=68.6]:3.16E-4)[&SH-alrt=85.3]:0.001316,'101148-137251_MT603386_2017.50_Aasiaat':0.015483)[&SH-alrt=79.3]:0.001027,((((((((('GQ205384_D5_2008.13_India':0.008416,('KP322603_D5_2013.88_India':3.0E-6,('GQ205377_D5_2007.20_India':0.001584,'GQ205387_D5_2008.79_India':0.001586)[&SH-alrt=99]:0.003289)[&SH-alrt=83.1]:0.001588)[&SH-alrt=96.6]:0.004356,'GQ205382_D5_2008.04_India':0.003867)[&SH-alrt=99.9]:0.023984,aHBV-DA27-LT992439_D5_406_Halvay3-Kazakhstan:0.006338)[&SH-alrt=73.6]:0.00528,(((((('GQ922003_D4_1984.88_Northwest':0.021288,'FJ692533_D4_2006.04_Haiti':0.005831)[&SH-alrt=67.5]:7.96E-4,('HQ700536_D4_2004.04_Kiribati':0.005217,('HQ700501_D4_1991.04_Samoa':3.16E-4,'HQ700525_D4_2004.04_Papua':6.34E-4)[&SH-alrt=69.4]:2.63E-4)[&SH-alrt=100]:0.008009)[&SH-alrt=97.3]:0.003042,'KJ470884_D4_2010.20_Brazil':0.011696)[&SH-alrt=74.9]:0.001402,aHBV_Medieval_1068_Petersburg:0.008303)[&SH-alrt=99.2]:0.005076,(('KU736923_D6_2006.96_Somalia':0.012985,('KU736921_D6_2011.54_Ethiopia':0.003097,'KP168419_D6_2012.04_Kenya':0.021149)[&SH-alrt=99.8]:0.006669)[&SH-alrt=77.5]:0.001174,('KX827299_D6_2010.13_USA':0.010814,'KP322604_D6_2013.88_Tunisia':0.007154)[&SH-alrt=84.1]:0.001375)[&SH-alrt=99.3]:0.005615)[&SH-alrt=63.2]:0.002829,aHBV-DA51-LT992444_D1_-281_Keden-Kyrgyzstan:0.014089)[&SH-alrt=68.1]:0.001963)[&SH-alrt=99]:0.005515,((((('KP090177_D3_2003.46_Brazil':0.003009,'KX827292_D3_2010.13_USA':0.008028)[&SH-alrt=33.2]:5.45E-4,'FJ349209_D3_1998.29_Belgium':0.003034)[&SH-alrt=92.8]:0.001706,('KT347090_D3_2007.04_South':0.007717,('GQ922000_D3_1985.04_Northwest':0.027037,aHBV-NASD24SEQ-MG585269_D3_1569_Italian-Mummy:0.006761)[&SH-alrt=0]:2.0E-6)[&SH-alrt=68.4]:6.53E-4)[&SH-alrt=94.1]:0.00454,aHBV-DA29-LT992438_D3_1194_Karasyur-Kazakhstan:0.00183)[&SH-alrt=87.4]:0.002506,aHBV-DA222-LT992454_D3_849_Butakty-Kazakhstan:0.002872)[&SH-alrt=92.5]:0.003948)[&SH-alrt=99.6]:0.004383,(((((('KF061168_D1_2012.29_Pakistan':0.004819,'JN257185_D1_2008.71_Syria':0.002858)[&SH-alrt=0]:2.0E-6,'GQ377589_D1_2007.20_China':0.005466)[&SH-alrt=79.5]:3.15E-4,'FJ904443_D1_2005.96_Tunisia':0.005119)[&SH-alrt=0]:2.0E-6,('JN257193_D1_2009.13_Syria':0.004227,'FJ349220_D1_1999.88_Belgium':0.009243)[&SH-alrt=62.4]:0.001204)[&SH-alrt=88.3]:6.78E-4,'KP322599_D1_2013.88_India':0.00218)[&SH-alrt=92.4]:0.001256,('GQ477459_D1_2006.20_Poland':0.00253,('KF584162_D1_2012.20_Argentina':2.0E-6,'KF584161_D1_2011.29_Argentina':2.0E-6)[&SH-alrt=98.9]:0.002569)[&SH-alrt=99.9]:0.005157)[&SH-alrt=97.5]:0.001979)[&SH-alrt=87.8]:0.001034,((((('FJ349205_D2_2008.96_Belgium':0.005911,'JQ687532_D2_2008.13_Serbia':0.004844)[&SH-alrt=100]:0.00597,'FJ349218_D2_1999.54_Belgium':0.010927)[&SH-alrt=78.2]:5.41E-4,(((('JX096956_D2_2006.37_Latvia':4.64E-4,'GQ477453_D2_2006.20_Poland':0.021354)[&SH-alrt=20.6]:6.23E-4,'KX827301_D2_2010.13_USA':0.005693)[&SH-alrt=94.6]:0.002219,'KJ647352_D2_2011.20_Argentina':0.013597)[&SH-alrt=99.8]:0.004723,('AB267090_D2_2005.71_Japan-Ehime-Niihama':0.005952,'GQ924652_D2_2007.04_Malaysia':0.008273)[&SH-alrt=99.3]:0.004156)[&SH-alrt=85.5]:6.41E-4)[&SH-alrt=0]:2.0E-6,'KP322601_D2_2013.88_India':2.0E-6)[&SH-alrt=75.5]:2.64E-4,'KU736925_D2_2008.88_Sudan':0.008805)[&SH-alrt=99.5]:0.002858)[&SH-alrt=91.4]:0.001419,'JN688695_D_2009.5_Argentina':0.015019)[&SH-alrt=85.4]:7.0E-4,(((('AB555497_D2_2009.5_Taiwanese-aborigines':0.005291,'AB555500_D2_2009.5_Taiwanese-aborigines':0.02945)[&SH-alrt=15.7]:0.002795,'AB555496_D2_2009.5_Taiwanese-aborigines':0.011813)[&SH-alrt=47.7]:0.001919,'AB555501_D2_2009.5_Taiwanese-aborigines':0.010104)[&SH-alrt=98.7]:0.004448,'HQ700511_D_2001.5_New-Caledonia':0.005933)[&SH-alrt=76.4]:0.001003)[&SH-alrt=99.9,!hilight={25,0.014525409299999993,#fafaff}]:0.007708)[&SH-alrt=64]:6.82E-4,'101195-133160_MT603379_2017.50_Sisimiut':0.005349);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="SH-alrt";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
