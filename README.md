@@ -45,8 +45,6 @@ Dataset 2 (subset unique patients/full genomes only) - Maximum-Likelihood Tree -
 
 Dataset 1.2 - MEGA X Output - Dataset1.2_HBV_900subset_MEGAoutput_betweengroupmeandistance.xlsx
 
-Note: OLD folder contains the supplementary files of the original analyses (prior to the last round of peer review).
-
 ### Authors
 
 <h4 align = "left">Adriano de Bernardi Schneider,<br>Carla Osiowy,<br>Reilly Hostager<br>Henrik Krarup,<br>Malene Børresen,<br>Yasuhito Tanaka,<br>Taylor Morriseau,<br>Joel O. Wertheim.</h4>
@@ -71,5 +69,6 @@ BibTex Citation:
 }
 ```
 
+**Note: OLD folder contains the supplementary files of the original analyses (prior to the last round of peer review).**
 
 
