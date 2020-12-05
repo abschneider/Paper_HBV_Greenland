@@ -47,5 +47,29 @@ Dataset 1.2 - MEGA X Output - Dataset1.2_HBV_900subset_MEGAoutput_betweengroupme
 
 Note: OLD folder contains the supplementary files of the original analyses (prior to the last round of peer review).
 
+### Authors
+
+<h4 align = "left">Adriano de Bernardi Schneider,<br>Carla Osiowy,<br>Reilly Hostager<br>Henrik Krarup,<br>Malene Børresen,<br>Yasuhito Tanaka,<br>Taylor Morriseau,<br>Joel O. Wertheim.</h4>
+
+### How To Cite
+
+Text Citation:
+
+```
+de Bernardi Schneider, A., Hostager, R., Krarup, H., Borresen, M., Tanaka, Y., Morriseau, T., ... & Wertheim, J. O. (2020). Analysis of Hepatitis B virus genotype D in Greenland suggests presence of a novel subgenotype. medRxiv.
+```
+
+BibTex Citation:
+
+```
+@article{de2020analysis,
+  title={Analysis of Hepatitis B virus genotype D in Greenland suggests presence of a novel subgenotype},
+  author={de Bernardi Schneider, Adriano and Hostager, Reilly and Krarup, Henrik and Borresen, Malene and Tanaka, Yasuhito and Morriseau, Taylor and Osiowy, Carla and Wertheim, Joel O},
+  journal={medRxiv},
+  year={2020},
+  publisher={Cold Spring Harbor Laboratory Press}
+}
+```
+
 
 
