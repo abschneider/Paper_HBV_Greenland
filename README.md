@@ -44,7 +44,7 @@ Dataset 2 (subset unique patients/full genomes only) - Maximum-Likelihood Tree -
 
 ### Genetic distance
 
-Dataset 1 - MEGA X Output - Dataset1_HBV_900subset_MEGAoutput_betweengroupmeandistance.xlsx
+Dataset 1.2 - MEGA X Output - Dataset1.2_HBV_900subset_MEGAoutput_betweengroupmeandistance.xlsx
 
 Note: OLD folder contains the supplementary files of the original analyses (prior to the last round of peer review).
 
